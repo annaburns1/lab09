@@ -1,0 +1,92 @@
+p
+{
+    color: #555555;
+    font-family: Verdana, sans-serif;
+    margin-top: 30px;
+    font-size: 12px;
+}
+
+body {
+  background-color: #FFFFE0
+}
+
+div.title {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -130px;
+  font-size: 40px;
+}
+
+p.gran {
+  display: inline-block;
+  margin-left: 330px;
+  margin-top: 70px;
+  font-size: 20px;
+  font-color: black;
+  text-align: center;
+}
+
+p.gold {
+  display: inline-block;
+  margin-left: 370px;
+  font-size: 20px;
+  font-color: black;
+  text-align: center;
+}
+
+p.hon {
+  display: inline-block;
+  margin-left: 400px;
+  font-size: 20px;
+  font-color: black;
+  text-align: center;
+}
+
+img {
+  margin-left: 300px;
+}
+
+div.gran{
+  margin-left: 300px;
+  display: inline-block;
+}
+
+div.hon {
+  margin-left: 340px;
+  display: inline-block;
+}
+
+div.gold {
+  margin-left: 330px;
+  display: inline-block;
+}
+
+div.shipping {
+  text-align: center;
+
+}
+
+p.ship {
+  margin-top: 90px;
+  font-size: 20px;
+  font-color: black;
+  text-align: center;
+}
+
+label {
+  font-size: 20px;
+  font-color: #555555;
+  font-family: Verdana, sans-serif;
+  margin-top: 5px;
+}
+
+div.buttons {
+  margin-left: 700px;
+  margin-top: 30px;
+}
+
+button {
+  margin-left: 100px;
+  font-size: 20px;
+}

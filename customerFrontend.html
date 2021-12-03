@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>The Apple Store</title>
+    <script type="text/javascript" src="formChecker.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <form id="myForm" action="customerBackend.php" method="post">
+      <div class="userIn">
+        <p>Please enter your username and password:</p>
+        <div class="user">
+          <p>Username: <input type="text" placeholder="Username" name="userEmail" id="userEmail" ></p>
+          <p>Password: <input type="password" placeholder="Password" name="userPass" id="userPass" ></p>
+        </div>
+        <div class="title">
+          <h1>The Apple Store</h1>
+        </div>
+          <p class="gran">Granny Smith<br>  $3.00</p>
+          <p class="hon">Honey Crisp<br>  $4.00</p>
+          <p class="gold">Golden Delicious<br>  $2.00</p>
+        <div class="items">
+          <img id="granny" src="https://www.kroger.com/product/images/xlarge/front/0000000004017" height="200px">
+          <img id="honey" src="https://upload.wikimedia.org/wikipedia/commons/0/07/Honeycrisp-Apple.jpg" height="200px">
+          <img id="golden" src="https://www.producemarketguide.com/sites/default/files/Variety.tar/Variety/golden-delicious_variety-page.png" height="200px">
+        </div>
+        <div class="quantities">
+          <div class="gran">
+            <input type="number" name="numGran" id="numGran">
+          </div>
+          <div class="hon">
+            <input type="number" name="numHon" id="numHon">
+          </div>
+          <div class="gold">
+            <input type="number" name="numGold" id="numGold">
+          </div>
+        </div>
+        <div class="shipping">
+          <p class="ship">Please choose a shipping method:</p>
+          <input type="radio" id="free" name="ship" value="0">
+          <label for="free">Free 7 Day</label><br>
+          <input type="radio" id="three" name="ship" value="5">
+          <label for="three">$5.00 Three Day</label><br>
+          <input type="radio" id="fifty" name="ship" value="50">
+          <label for="fifty">$50.00 Overnight</label><br>
+        </div>
+      </div>
+      <div class="buttons">
+        <button type="button" onclick="validCheck()" id="buy">Buy!</button>
+        <button type="button" name="reset" onclick="resetPage()">Reset Page</button>
+      </div>
+    </form>
+  </body>
+</html>
